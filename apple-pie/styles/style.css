@@ -25,9 +25,29 @@ body {
 
 }
 
-#container{
-  width:80%;
+.ul{
+  list-style-type: "- ";
+}
+
+.images{
+  display: block;
+  margin: 0 auto; 
   
+}
+
+.container{
+  width: 200px;
+  height: 200px;
+  background-color: #0a0a23;
+  
+}
+
+.container img {
+  width: 100px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items:center;
 }
 
 p{
@@ -57,7 +77,11 @@ p{
   display:flex;
   flex-direction:column;
   width: 100%;
-  justify-content: center;
+  justify-content:flex-end;
+}
+
+.recipe{
+  
 }
 
 hr{
